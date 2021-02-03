@@ -5,10 +5,6 @@ const About = ({ data }) => {
     var name = data.name;
     var profilepic = "images/" + data.image;
     var bio = data.bio;
-    var street = data.address.street;
-    var city = data.address.city;
-    var state = data.address.state;
-    var zip = data.address.zip;
     var phone = data.phone;
     var email = data.email;
     var resumeDownload = data.resumedownload;
@@ -27,18 +23,12 @@ const About = ({ data }) => {
         <div className="nine columns main-col">
           <h2>About Me</h2>
 
-          <p>{bio}</p>
+          <p align = "justify">{bio}</p>
           <div className="row">
             <div className="columns contact-details">
               <h2>Contact Details</h2>
               <p className="address">
                 <span>{name}</span>
-                <br />
-                <span>
-                  {street}
-                  <br />
-                  {city} {state}, {zip}
-                </span>
                 <br />
                 <span>{phone}</span>
                 <br />
@@ -48,7 +38,7 @@ const About = ({ data }) => {
             <div className="columns download">
               <p>
                 <a href={resumeDownload} className="button">
-                  <i className="fa fa-download"></i>Download Resume
+                  <i className="fa fa-download"></i>Visit Website
                 </a>
               </p>
             </div>
