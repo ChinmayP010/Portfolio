@@ -67,7 +67,7 @@
         "level": "80%"
       },
       {
-        "name": "Django",
+        "name": "NodeJS",
         "level": "98%"
       }
     ]
@@ -81,10 +81,10 @@
         "url": "clone-74fb5.web.app"
       },
       {
-        "title": "Gmail Clone (React JS)",
+        "title": "Slack Clone",
         "category": "",
-        "image": "Gmail.png",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
+        "image": "Slack.png",
+        "url": "https://slack-1b923.web.app"
       }
     ]
   },
